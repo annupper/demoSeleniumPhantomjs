@@ -20,7 +20,8 @@ public class NewTest {
   }
   @BeforeTest
   public void beforeTest() {
-	  File path=new File("C:\\Users\\anna.zhuravleva\\Documents\\Alrquitectura\\phantom\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
+	  // File path=new File("C:\\Users\\anna.zhuravleva\\Documents\\Alrquitectura\\phantom\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
+File path=new File("phantomjs-2.1.1-linux-x86_64//bin//phantomjs");
 	  System.setProperty("phantomjs.binary.path",path.getAbsolutePath());
 	  driver = new PhantomJSDriver();
   }
